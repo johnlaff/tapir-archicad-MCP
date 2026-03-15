@@ -7,4 +7,5 @@ def register_all_tools():
     from tapir_archicad_mcp.tools.custom import functions
     from tapir_archicad_mcp.tools.generated import tapir
     from tapir_archicad_mcp.tools.generated import official
+    from tapir_archicad_mcp.tools.manual import dimension_commands  # noqa: F401
     pass
